@@ -17,6 +17,6 @@ Ie.
 
 grep -E -v “any|number|that|you|don’t|want|used|” “7digitPIN.txt" > "modified_7digitPIN.txt"
 
-grep -E -v "2|5|8|0" “8digit.txt" > “modified_7digitPIN.txt"
+grep -E -v "2|5|8|0" “7digit.txt" > “modified_7digitPIN.txt"
 
 So the above command will search through all the 8 digit passcodes text file and create a list that isn’t using the digit 2, 5, 8, or 0 and puts it into a new text document called “modified_7digit.txt
